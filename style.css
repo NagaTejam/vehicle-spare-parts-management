@@ -1,0 +1,21 @@
+body{
+	
+	text-align: center;
+	color:darkgrey;
+}
+.inputuser{
+	padding:15px;
+	padding-left: 35px;
+	color:lightskyblue;
+}
+
+.submit{
+	padding:15px;
+}
+.password{
+	color:lightskyblue;
+}
+#title{
+		font-family:courier new;
+		color:black;
+}

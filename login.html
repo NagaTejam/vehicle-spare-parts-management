@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Login page</title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">vehicle spare parts management</h1>
+        <form name="login">
+             <div class="inputuser">
+				Name:
+				<input type="text" name="username" placeholder="Name" required>
+			</div>
+			<div class="password">
+				Password:
+			<input type="password" name="password" placeholder="Password">
+			</div>
+			<div class="submit">
+			<input type="submit" class="btn btn-primary" onclick="check(this.form)" value="Login">
+			</div>
+			
+			<input class="reset" type="reset" value="clear">
+			
+        </form>
+        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                    window.open('target.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+    </body>
+</html>
